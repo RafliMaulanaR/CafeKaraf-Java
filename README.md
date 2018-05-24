@@ -1,2 +1,0 @@
-# CafeKaraf-Java
-AplikasiPemesananMakanan
