@@ -1,0 +1,17 @@
+@media print{
+ 			.btn{
+ 				display: none !important;
+ 			}
+ 			header{
+ 				display: none !important;
+ 			}
+ 			aside{
+ 				display: none !important;
+ 			}
+ 			a,hr,br{
+ 				display: none !important;
+ 			}
+ 			.naon{
+ 				display: none !important;
+ 			}
+ 		}
