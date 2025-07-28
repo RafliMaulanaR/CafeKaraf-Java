@@ -10,7 +10,6 @@
 
  ?>
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,15 +31,13 @@
 
 <body>
 	<tr>
-		
-			<td>
-			
-				<p style="font-size: 30px; font-family: century-gothic;">
-				<img src="Restaurant_40px.png" style="font-size: 10px;">
-				 Struk CAFEKARAF
-				<img src="Restaurant_40px.png" style="font-size: 10px;"> <hr>Jalan Raya Seseupan Ciawi Telp : 087874163076</p></p>
-			</td>
-		</tr>
+		<td>
+			<p style="font-size: 30px; font-family: century-gothic;">
+			<img src="Restaurant_40px.png" style="font-size: 10px;">
+			 Struk CAFEKARAF
+			<img src="Restaurant_40px.png" style="font-size: 10px;"> <hr>Jalan Raya Seseupan Ciawi Telp : 087874163076</p></p>
+		</td>
+	</tr>
 <table  cellpadding="10"  cellspacing="0" style="margin-top: -30px;">
 <hr>
 <thead>
@@ -51,13 +48,11 @@
 		<th>Nama Menu</th>
 		<th>Harga Menu</th>
 		<th>Jumlah Beli</th>
-
 	</tr>	
 </thead>
 <tbody>
 
 <?php $no =1; foreach ($struk as $str) : ?>
-
 	<tr>
 		<td><?= $no?></td>
 		<td><?= $str['id_kasir']?></td>
@@ -65,12 +60,8 @@
 		<td><?= $str['nama_menu']?></td>
 		<td><?= number_format($str['harga_menu'])?></td>
 		<td><?= $str['jumlah_beli']?></td>
-
-
 	</tr>
 	<br>
-	
-
 </tbody>
 <?php $no++; endforeach ?>
 <tfoot>
